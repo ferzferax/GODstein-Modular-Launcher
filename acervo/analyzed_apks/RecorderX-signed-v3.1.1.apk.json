@@ -1,0 +1,105 @@
+{
+  "file_name": "RecorderX-signed-v3.1.1.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\RecorderX-signed-v3.1.1.apk",
+  "size_bytes": 4463516,
+  "analyzed_at": "2026-11-22T01:57:49.209485",
+  "package_hint": "",
+  "permissions": [
+    "%android.permission.FOREGROUND_SERVICE",
+    "%android.permission.POST_NOTIFICATIONS",
+    "&android.permission.SYSTEM_ALERT_WINDOW",
+    ")android.permission.WRITE_EXTERNAL_STORAGE",
+    "+android.permission.BIND_QUICK_SETTINGS_TILE",
+    ",android.permission.FOREGROUND_SERVICE_CAMERA",
+    "-android.permission.BIND_ACCESSIBILITY_SERVICE",
+    "0android.permission.FOREGROUND_SERVICE_MICROPHONE",
+    "6android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",
+    "android.permission.CAMERA",
+    "android.permission.DUMP",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.WAKE_LOCK"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "abc_item_background_holo_dark",
+      "abc_list_pressed_holo_dark",
+      "abc_list_selector_background_transition_holo_dark",
+      "abc_list_longpressed_holo",
+      "abc_list_focused_holo",
+      "abc_list_selector_disabled_holo_dark",
+      "abc_list_selector_holo_dark",
+      "abc_list_pressed_holo_light",
+      "abc_list_selector_background_transition_holo_light",
+      "abc_list_selector_holo_light",
+      "abc_list_selector_disabled_holo_light",
+      "abc_item_background_holo_light"
+    ],
+    "dock": [
+      "dockToolbar",
+      "isDockedOnRight",
+      "undockToolbar",
+      "isDocked",
+      "clearAndDock",
+      "dockHandleView",
+      "initDockHandle",
+      "BaseTransientBottomBar",
+      "updateDockHandleStyle",
+      "setBaseTransientBottomBar"
+    ],
+    "search_autolaunch": [
+      "TextWatcher",
+      "mTextWatcher"
+    ],
+    "gestures": [
+      "mandatorySystemGestures",
+      "getScaledMinimumFlingVelocity",
+      "swipe_hint_launch_count",
+      "OnGestureListener",
+      "onNestedPreFling",
+      "mFlingEstimator",
+      "getScaledMaximumFlingVelocity",
+      "OnSwipe",
+      "setSystemGestureInsets",
+      "ic_swipe_arrows",
+      "title_swipe_here",
+      "setSystemGestureExclusionRects"
+    ],
+    "app_drawer": [
+      "drawerlayout",
+      "getAlphabeticShortcut",
+      "onDrawerClosed",
+      "getDrawerToggleDelegate",
+      "DrawerArrowToggle_barLength",
+      "Widget_AppCompat_DrawerArrowToggle",
+      "mDrawerSlideAnimationEnabled",
+      "mDrawerLayout",
+      "MenuItem_android_alphabeticShortcut",
+      "onDrawerStateChanged",
+      "setDrawerLockMode",
+      "mShortcutAlphabeticChar"
+    ],
+    "privacy_blocker": [
+      "ColorMatrixColorFilter",
+      "IntentFilter",
+      "setFilters",
+      "COLORFILTER_TINT_COLOR_CONTROL_NORMAL",
+      "ColorFilter",
+      "mCursorFilter",
+      "getPorterDuffColorFilter",
+      "InputFilter",
+      "ImageFilterView",
+      "Filter",
+      "setPorterDuffColorFilter",
+      "tintDrawableUsingColorFilter"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 1,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

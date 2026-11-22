@@ -1,0 +1,15 @@
+# Build artifacts & temporary directories
+build/
+__pycache__/
+*.py[cod]
+*$py.class
+*.idsig
+
+# Third-party binary tools downloaded locally
+tools/*.jar
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

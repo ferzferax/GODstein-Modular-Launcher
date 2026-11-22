@@ -1,0 +1,97 @@
+{
+  "file_name": "Arcanum-v1.7.0-fdroid.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\Arcanum-v1.7.0-fdroid.apk",
+  "size_bytes": 37811708,
+  "analyzed_at": "2026-11-22T01:57:42.105044",
+  "package_hint": "zip.arcanum",
+  "permissions": [
+    " android.permission.USE_BIOMETRIC",
+    "\"android.permission.USE_FINGERPRINT",
+    "#android.permission.BIND_JOB_SERVICE",
+    "#android.permission.MANAGE_DOCUMENTS",
+    "%android.permission.FOREGROUND_SERVICE",
+    "(android.permission.ACCESS_MEDIA_LOCATION",
+    "(android.permission.READ_EXTERNAL_STORAGE",
+    ")android.permission.RECEIVE_BOOT_COMPLETED",
+    ")android.permission.WRITE_EXTERNAL_STORAGE",
+    "/android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+    "1android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "4android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.CAMERA",
+    "android.permission.DUMP",
+    "android.permission.WAKE_LOCK"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "FFFEB73D69D78C6C27A6009CBBCA1980F8533921E8A684423E4",
+      "B324FB61D108A94BB2C8E3FBB96ADAB760D7F4681D4F42A3DE3",
+      "morphology",
+      "af606b4d3dbaa14b5e77efe75928fe1dc127a2ffa8de3348b3c",
+      "E87579C11079F43DD824993C2CEE5ED3",
+      "debb9da5b3d88cc956e08787ec3f3a09bba5f48b889a74aaf53",
+      "F2E6A5A495BE64B6E770409494B7FEE1DBB1E4B2BC2A53D4F89",
+      "d221a7d46bcde86c90e49284eb153dab",
+      "id_alg_CMS3DESwrap",
+      "DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F",
+      "BD7E9AFB53D8B85289BCC48EE5BFE6F20137D10A087EB6E7871",
+      "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA"
+    ],
+    "dock": [
+      "BottomBar",
+      "BaseTransientBottomBar"
+    ],
+    "search_autolaunch": [
+      "TextWatcher"
+    ],
+    "gestures": [
+      "getScaledMaximumFlingVelocity",
+      "previewHandwritingGesture",
+      "getDoubleTapTimeout",
+      "setSystemGestureExclusionRects",
+      "onFling",
+      "banner_swipe",
+      "systemGestures",
+      "onNestedFling",
+      "getSwipeEdge",
+      "performHandwritingGesture",
+      "FlingResult",
+      "dispatchNestedPreFling"
+    ],
+    "app_drawer": [
+      "alphabet",
+      "BasicAlphabetMapper",
+      "LALPHABETA",
+      "setAlphabeticShortcut",
+      "getAlphabeticShortcut",
+      "getAlphabeticModifiers",
+      "AlphabetMapper",
+      "isAlphabetic",
+      "ALPHABETIC_MAXSIZE",
+      "getAlphabetic",
+      "alphabetic"
+    ],
+    "privacy_blocker": [
+      "getMagicFilterDescription",
+      "TAG_FILTER_EFFECT",
+      "ColorMatrixColorFilter.",
+      "excludedSubtreesDNS",
+      "InputFilter",
+      "Outlined.FilterList",
+      "getRDNs",
+      "TAG_INTERNAL_ND_FILTER",
+      "getNoiseFilterDescription",
+      "getFilteredArgs",
+      "withinDNSubtree",
+      "PorterDuffColorFilter"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 2,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

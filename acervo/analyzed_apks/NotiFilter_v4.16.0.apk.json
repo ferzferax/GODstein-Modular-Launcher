@@ -1,0 +1,86 @@
+{
+  "file_name": "NotiFilter_v4.16.0.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\NotiFilter_v4.16.0.apk",
+  "size_bytes": 6167177,
+  "analyzed_at": "2026-11-22T01:57:48.505975",
+  "package_hint": "co.adityarajput.notifilter",
+  "permissions": [
+    "#android.permission.BIND_JOB_SERVICE",
+    "#android.permission.BIND_REMOTEVIEWS",
+    "%android.permission.FOREGROUND_SERVICE",
+    "%android.permission.POST_NOTIFICATIONS",
+    "%android.permission.QUERY_ALL_PACKAGES",
+    ")android.permission.RECEIVE_BOOT_COMPLETED",
+    "-android.permission.ACCESS_NOTIFICATION_POLICY",
+    "-android.permission.BIND_ACCESSIBILITY_SERVICE",
+    "1android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "5android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",
+    "7android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+    "android.permission.DUMP",
+    "android.permission.WAKE_LOCK"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "positiveInfinityBounds3D",
+      "a62c4357c7789787aa4f3dff725c8088f18893ba40fe85c19f2",
+      "d3R3d332",
+      "S3Df",
+      "negativeInfinityBounds3D",
+      "AnimationVector3D"
+    ],
+    "dock": [
+      "bottomBar",
+      "BottomBar"
+    ],
+    "search_autolaunch": [
+      "TextWatcher",
+      "EmojiTextWatcher"
+    ],
+    "gestures": [
+      "SystemGestures",
+      "getScaledMaximumFlingVelocity",
+      "previewHandwritingGesture",
+      "getDoubleTapTimeout",
+      "onPreFling",
+      "setSystemGestureExclusionRects",
+      "TextContextMenuGestureNode",
+      "onFling",
+      "moveToAwaitGesturePickupState",
+      "systemGestures",
+      "onNestedFling",
+      "ForEachGestureKt"
+    ],
+    "app_drawer": [
+      "mShortcutAlphabeticChar",
+      "itemAlphabeticModifiers",
+      "mShortcutAlphabeticModifiers",
+      "setAlphabeticShortcut",
+      "getAlphabeticShortcut",
+      "getAlphabeticModifiers",
+      "itemAlphabeticShortcut"
+    ],
+    "privacy_blocker": [
+      "co.adityarajput.notifilter.data.models.Notification",
+      "UpsertFilterScreenKt",
+      "COLORFILTER_TINT_COLOR_CONTROL_NORMAL",
+      "getPorterDuffColorFilter",
+      "TOGGLE_FILTER",
+      "InputFilter",
+      "currentColorFilter",
+      "defaultFilterChipColorsCached",
+      "internalColorFilter",
+      "setFilterQuality",
+      "PorterDuffColorFilter",
+      "EmojiInputFilter"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 1,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "file_name": "AuraOrbit-3.0.1.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\AuraOrbit-3.0.1.apk",
+  "size_bytes": 15820379,
+  "analyzed_at": "2026-11-22T01:57:44.013536",
+  "package_hint": "dev.jaimin.auraorbit",
+  "permissions": [
+    " android.permission.SET_WALLPAPER",
+    "!android.permission.BIND_WALLPAPER",
+    "&android.permission.SYSTEM_ALERT_WINDOW",
+    "-android.permission.BIND_ACCESSIBILITY_SERVICE",
+    "android.permission.DUMP"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "Theme_AuraOrbit_TransparentFullscreen",
+      "pref_category_sphere",
+      "GLSurfaceView",
+      "computeVisualSpherePixelRadius",
+      "auraorbit",
+      "sphereRadius",
+      "sphereCenterX",
+      "glCopyTexSubImage3D",
+      "Rotational3D",
+      "btn_info_orbit_color",
+      "opengl",
+      "SphereWidgetProvider"
+    ],
+    "dock": [
+      "BaseTransientBottomBar",
+      "setBaseTransientBottomBar"
+    ],
+    "search_autolaunch": [
+      "search_input",
+      "TextWatcher",
+      "dialog_member_search_input"
+    ],
+    "gestures": [
+      "mandatorySystemGestures",
+      "pref_gesture_tips_title",
+      "getScaledMinimumFlingVelocity",
+      "OnGestureListener",
+      "onNestedPreFling",
+      "getScaledMaximumFlingVelocity",
+      "GestureAdapter",
+      "FLING_SENSITIVITY",
+      "setSystemGestureInsets",
+      "gestureStartRotation",
+      "gestureZoneMock",
+      "getGestureDetector"
+    ],
+    "app_drawer": [
+      "getAlphabeticShortcut",
+      "getDrawerToggleDelegate",
+      "drawerOpen",
+      "drawer",
+      "getAlphabeticModifiers",
+      "ic_allapps",
+      "setAlphabeticShortcut",
+      "isA11yDrawerOpenFresh",
+      "allapps"
+    ],
+    "privacy_blocker": [
+      "getMaxAnisotropicFilterLevel",
+      "setTextureFilters",
+      "setTextFieldFilter",
+      "getMinFilter",
+      "setColorFilter",
+      "minFilter",
+      "TextureFilter",
+      "IntentFilter",
+      "setFilters",
+      "getAnisotropicFilter",
+      "getFilterableStringBuilder",
+      "ColorFilter"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 1,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "file_name": "Metiq-v1.0.0-gplay.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\Metiq-v1.0.0-gplay.apk",
+  "size_bytes": 12855965,
+  "analyzed_at": "2026-11-22T01:57:48.096488",
+  "package_hint": "xyz.metiq",
+  "permissions": [
+    "%android.permission.FOREGROUND_SERVICE",
+    "%android.permission.POST_NOTIFICATIONS",
+    "4android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+    "android.permission.DUMP"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "T3d.r",
+      "T3d.rQ",
+      "T3d.rQeJ4",
+      "T3d.rQQJ4",
+      "p0g3d",
+      "AnimationVector3D",
+      "PvU3d",
+      "U3d3n",
+      "T3d."
+    ],
+    "dock": [
+      "BottomBar"
+    ],
+    "search_autolaunch": [
+      "TextWatcher"
+    ],
+    "gestures": [
+      "mandatorySystemGestures",
+      "getScaledMinimumFlingVelocity",
+      "GestureEnd",
+      "GestureThresholdActivate",
+      "OnGestureListener",
+      "onNestedPreFling",
+      "getScaledMaximumFlingVelocity",
+      "previewHandwritingGesture",
+      "getDoubleTapTimeout",
+      "setSystemGestureInsets",
+      "GestureNode",
+      "JoinOrSplitGesture"
+    ],
+    "app_drawer": [
+      "getAlphabeticShortcut",
+      "getAlphabeticModifiers",
+      "setAlphabeticShortcut"
+    ],
+    "privacy_blocker": [
+      "IntentFilter",
+      "setFilters",
+      "ColorFilter",
+      "InputFilter",
+      "BlendModeColorFilter",
+      "enoughToFilter",
+      "clearColorFilter",
+      "PorterDuffColorFilter",
+      "filterQuality",
+      "colorFilter",
+      "addFilter",
+      "getFilters"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 1,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

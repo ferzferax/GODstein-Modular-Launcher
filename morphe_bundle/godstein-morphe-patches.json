@@ -1,0 +1,112 @@
+{
+  "schema": "morphe-patches-bundle/v1",
+  "bundleName": "GODstein Modular Launcher Patches",
+  "author": "ferzferax",
+  "authorGithub": "https://github.com/ferzferax",
+  "generatedAt": "2026-11-22T02:18:53.759506",
+  "compatiblePackages": [
+    {
+      "name": "com.ferzferaz.godstein",
+      "versions": [
+        "1.0.0-godstein"
+      ]
+    },
+    {
+      "name": "com.atlantis.launcher",
+      "versions": [
+        "any"
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "name": "Esfera Holo 3D (Sem Barra de Pesquisa)",
+      "id": "holo-3d-sphere",
+      "description": "Esfera 3D Fibonacci interativa na tela inicial com física de inércia suave, escala de profundidade e zero barra de pesquisa fixa.",
+      "use": true,
+      "origin": {
+        "app": "AuraOrbit",
+        "author": "JaiminPatel345",
+        "github": "https://github.com/JaiminPatel345/AuraOrbit"
+      },
+      "compatiblePackages": [
+        "com.ferzferaz.godstein"
+      ]
+    },
+    {
+      "name": "Dock Limpo Inferior",
+      "id": "clean-bottom-dock",
+      "description": "Dock minimalista translúcido na parte inferior apenas com os aplicativos favoritos e botão da gaveta, sem barra de pesquisa acoplada.",
+      "use": true,
+      "origin": {
+        "app": "Arcanum",
+        "author": "Esdex",
+        "github": "https://github.com/Esdex/Arcanum"
+      },
+      "compatiblePackages": [
+        "com.ferzferaz.godstein"
+      ]
+    },
+    {
+      "name": "Gaveta com Teclado Imediato & Auto-Launch",
+      "id": "instant-autolaunch-drawer",
+      "description": "Abre o teclado automaticamente ao acessar a gaveta (fix Android 16/One UI) e abre o app instantaneamente quando resta 1 correspondência ou match exato.",
+      "use": true,
+      "origin": {
+        "app": "Beam & Bluke",
+        "author": "montafra & arnav-kr",
+        "github": "https://github.com/montafra/beam"
+      },
+      "compatiblePackages": [
+        "com.ferzferaz.godstein"
+      ]
+    },
+    {
+      "name": "Gestos Rápidos & Filtro (Dragon / Grace / Mink)",
+      "id": "dragon-grace-mink-gestures",
+      "description": "Deslize para cima na esfera abre a gaveta direto no teclado; filtro por inicial e menu rápido de créditos e módulos GODstein.",
+      "use": true,
+      "origin": {
+        "app": "Dragon / Grace / Mink Concepts",
+        "author": "ferzferax & Community",
+        "github": "https://github.com/ferzferax"
+      },
+      "compatiblePackages": [
+        "com.ferzferaz.godstein"
+      ]
+    },
+    {
+      "name": "Zero Telemetria & Zero Permissões de Rede",
+      "id": "debloat-zero-telemetry",
+      "description": "Remove completamente permissões INTERNET, AD_ID, Firebase e rastreadores. Execução 100% offline e privada.",
+      "use": true,
+      "origin": {
+        "app": "NotiFilter & BlockAds",
+        "author": "BURG3R5 & pass-with-high-score",
+        "github": "https://github.com/BURG3R5/NotiFilter"
+      },
+      "compatiblePackages": [
+        "com.ferzferaz.godstein"
+      ]
+    },
+    {
+      "name": "DNA Launcher Safe Holo Bar Hider (Morphe Patch)",
+      "id": "dna-holo-safe-patch",
+      "description": "Patch seguro para o DNA Launcher externo usando setAlpha(0f) + setTranslationY(500f) + setClickable(false) em vez de View.GONE para não quebrar o shader de blur.",
+      "use": true,
+      "origin": {
+        "app": "DNA Launcher (Patch)",
+        "author": "ferzferax",
+        "github": "https://github.com/ferzferax"
+      },
+      "compatiblePackages": [
+        "com.atlantis.launcher"
+      ],
+      "smaliHook": {
+        "targetClass": "Lkm4;",
+        "targetMethod": "O0()V",
+        "fixNote": "Usar setAlpha(0.0f) + setTranslationY(500.0f) + setClickable(false) em vez de View.GONE para evitar textura 0x0 no FrameLayoutOnBlur."
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "file_name": "Beam-v2.3-app-release.apk",
+  "file_path": "C:\\Users\\ferna\\Desktop\\APKs\\Beam-v2.3-app-release.apk",
+  "size_bytes": 6814105,
+  "analyzed_at": "2026-11-22T01:57:44.571128",
+  "package_hint": "montafra.beam",
+  "permissions": [
+    "%android.permission.FOREGROUND_SERVICE",
+    "%android.permission.POST_NOTIFICATIONS",
+    ")android.permission.RECEIVE_BOOT_COMPLETED",
+    "+android.permission.BIND_QUICK_SETTINGS_TILE",
+    "1android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+    "android.permission.DUMP",
+    "android.permission.VIBRATE"
+  ],
+  "telemetry_flags": [],
+  "detected_features": {
+    "holo_3d": [
+      "d3Dn",
+      "AnimationVector3D"
+    ],
+    "dock": [
+      "Dock",
+      "BottomBar",
+      "BaseTransientBottomBar",
+      "setBaseTransientBottomBar"
+    ],
+    "search_autolaunch": [
+      "TextWatcher"
+    ],
+    "gestures": [
+      "mandatorySystemGestures",
+      "getScaledMinimumFlingVelocity",
+      "OnGestureListener",
+      "onNestedPreFling",
+      "getScaledMaximumFlingVelocity",
+      "previewHandwritingGesture",
+      "getDoubleTapTimeout",
+      "setSystemGestureInsets",
+      "JoinOrSplitGesture",
+      "setSystemGestureExclusionRects",
+      "getOnFlingListener",
+      "dispatchNestedFling"
+    ],
+    "app_drawer": [
+      "getAlphabeticShortcut",
+      "getAlphabeticModifiers",
+      "setAlphabeticShortcut"
+    ],
+    "privacy_blocker": [
+      "IntentFilter",
+      "setFilters",
+      "ColorFilter",
+      "InputFilter",
+      "BlendModeColorFilter",
+      "Unfiltered",
+      "enoughToFilter",
+      "clearColorFilter",
+      "PorterDuffColorFilter",
+      "filterQuality",
+      "colorFilter",
+      "addFilter"
+    ]
+  },
+  "layouts_count": 0,
+  "dex_count": 1,
+  "recommended_patches": [
+    "holo-3d-sphere",
+    "clean-bottom-dock",
+    "instant-autolaunch-drawer",
+    "dragon-grace-mink-gestures"
+  ]
+}

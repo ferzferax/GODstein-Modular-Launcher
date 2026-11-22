@@ -1,0 +1,91 @@
+{
+  "studio_name": "GODstein Modular Launcher Studio",
+  "version": "1.0.0",
+  "curator": "ferzferax",
+  "curator_github": "https://github.com/ferzferax",
+  "skeleton_package": "com.ferzferaz.godstein",
+  "skeleton_label": "GODstein Launcher",
+  "patches": [
+    {
+      "id": "holo-3d-sphere",
+      "name": "Esfera Holo 3D (Sem Barra de Pesquisa)",
+      "description": "Esfera 3D Fibonacci interativa na tela inicial com física de inércia suave, escala de profundidade e zero barra de pesquisa fixa.",
+      "enabled": true,
+      "category": "home_layout",
+      "origin_app": "AuraOrbit",
+      "author": "JaiminPatel345",
+      "github_url": "https://github.com/JaiminPatel345/AuraOrbit",
+      "license": "Open Source",
+      "morphe_compatible": true,
+      "config_key": "ENABLE_HOLO_SPHERE"
+    },
+    {
+      "id": "clean-bottom-dock",
+      "name": "Dock Limpo Inferior",
+      "description": "Dock minimalista translúcido na parte inferior apenas com os aplicativos favoritos e botão da gaveta, sem barra de pesquisa acoplada.",
+      "enabled": true,
+      "category": "dock",
+      "origin_app": "Arcanum",
+      "author": "Esdex",
+      "github_url": "https://github.com/Esdex/Arcanum",
+      "license": "Open Source",
+      "morphe_compatible": true,
+      "config_key": "ENABLE_CLEAN_DOCK"
+    },
+    {
+      "id": "instant-autolaunch-drawer",
+      "name": "Gaveta com Teclado Imediato & Auto-Launch",
+      "description": "Abre o teclado automaticamente ao acessar a gaveta (fix Android 16/One UI) e abre o app instantaneamente quando resta 1 correspondência ou match exato.",
+      "enabled": true,
+      "category": "drawer_search",
+      "origin_app": "Beam & Bluke",
+      "author": "montafra & arnav-kr",
+      "github_url": "https://github.com/montafra/beam",
+      "secondary_github_url": "https://github.com/arnav-kr/Bluke",
+      "license": "Open Source",
+      "morphe_compatible": true,
+      "config_key": "ENABLE_AUTO_LAUNCH_SEARCH"
+    },
+    {
+      "id": "dragon-grace-mink-gestures",
+      "name": "Gestos Rápidos & Filtro (Dragon / Grace / Mink)",
+      "description": "Deslize para cima na esfera abre a gaveta direto no teclado; filtro por inicial e menu rápido de créditos e módulos GODstein.",
+      "enabled": true,
+      "category": "gestures",
+      "origin_app": "Dragon / Grace / Mink Concepts",
+      "author": "ferzferax & Community",
+      "github_url": "https://github.com/ferzferax",
+      "license": "Open Source",
+      "morphe_compatible": true,
+      "config_key": "ENABLE_QUICK_GESTURES"
+    },
+    {
+      "id": "debloat-zero-telemetry",
+      "name": "Zero Telemetria & Zero Permissões de Rede",
+      "description": "Remove completamente permissões INTERNET, AD_ID, Firebase e rastreadores. Execução 100% offline e privada.",
+      "enabled": true,
+      "category": "privacy",
+      "origin_app": "NotiFilter & BlockAds",
+      "author": "BURG3R5 & pass-with-high-score",
+      "github_url": "https://github.com/BURG3R5/NotiFilter",
+      "secondary_github_url": "https://github.com/pass-with-high-score/blockads-android",
+      "license": "Open Source",
+      "morphe_compatible": true,
+      "config_key": "ENABLE_ZERO_TELEMETRY"
+    },
+    {
+      "id": "dna-holo-safe-patch",
+      "name": "DNA Launcher Safe Holo Bar Hider (Morphe Patch)",
+      "description": "Patch seguro para o DNA Launcher externo usando setAlpha(0f) + setTranslationY(500f) + setClickable(false) em vez de View.GONE para não quebrar o shader de blur.",
+      "enabled": true,
+      "category": "external_morphe_patch",
+      "origin_app": "DNA Launcher (Patch)",
+      "author": "ferzferax",
+      "github_url": "https://github.com/ferzferax",
+      "license": "Patch",
+      "morphe_compatible": true,
+      "target_package": "com.atlantis.launcher",
+      "config_key": "ENABLE_DNA_SAFE_PATCH"
+    }
+  ]
+}
