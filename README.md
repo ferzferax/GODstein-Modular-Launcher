@@ -22,6 +22,10 @@ Instead of being locked into a single bloated launcher, **GODstein Studio** lets
 
 ---
 
+> [!IMPORTANT]
+> **Early-Stage Open-Source Project Notice**  
+> This is an **initial / early-stage experimental project** with many improvements and modules still to build! I decided to make it public so anyone can **take a look, test the APK, open issues, and help shape and improve it together.**
+
 > [!NOTE]
 > **Why "GODstein"?**  
 > Think of it as an intentionally crafted "Frankenstein" of the **best open-source Android launcher concepts** — unified cleanly in one native skeleton without proprietary bloat, ads, or conflicting UI shaders.
